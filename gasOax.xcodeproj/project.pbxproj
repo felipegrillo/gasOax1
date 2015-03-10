@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF7B50921AAF3FFD009992EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50911AAF3FFD009992EC /* main.m */; };
+		FF7B50951AAF3FFD009992EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50941AAF3FFD009992EC /* AppDelegate.m */; };
+		FF7B50981AAF3FFD009992EC /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50971AAF3FFD009992EC /* Home.m */; };
+		FF7B509B1AAF3FFD009992EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7B50991AAF3FFD009992EC /* Main.storyboard */; };
+		FF7B509D1AAF3FFD009992EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7B509C1AAF3FFD009992EC /* Images.xcassets */; };
+		FF7B50A01AAF3FFD009992EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7B509E1AAF3FFD009992EC /* LaunchScreen.xib */; };
+		FF7B50AC1AAF3FFD009992EC /* gasOaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50AB1AAF3FFD009992EC /* gasOaxTests.m */; };
+		FF7B50B71AAF4094009992EC /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50B61AAF4094009992EC /* GoogleMaps.framework */; };
+		FF7B50B91AAF40A4009992EC /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF7B50B81AAF40A4009992EC /* GoogleMaps.bundle */; };
+		FF7B50BC1AAF40CA009992EC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50BB1AAF40CA009992EC /* AVFoundation.framework */; };
+		FF7B50BE1AAF40D2009992EC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50BD1AAF40D2009992EC /* CoreData.framework */; };
+		FF7B50C01AAF40D9009992EC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50BF1AAF40D9009992EC /* CoreLocation.framework */; };
+		FF7B50C21AAF40E3009992EC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50C11AAF40E3009992EC /* CoreText.framework */; };
+		FF7B50C41AAF40EB009992EC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50C31AAF40EB009992EC /* GLKit.framework */; };
+		FF7B50C61AAF40F3009992EC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50C51AAF40F3009992EC /* ImageIO.framework */; };
+		FF7B50C81AAF40FE009992EC /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50C71AAF40FE009992EC /* libc++.dylib */; };
+		FF7B50CA1AAF4105009992EC /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50C91AAF4105009992EC /* libicucore.dylib */; };
+		FF7B50CC1AAF410F009992EC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50CB1AAF410F009992EC /* libz.dylib */; };
+		FF7B50CE1AAF4117009992EC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50CD1AAF4117009992EC /* OpenGLES.framework */; };
+		FF7B50D01AAF4120009992EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50CF1AAF4120009992EC /* QuartzCore.framework */; };
+		FF7B50D21AAF4128009992EC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7B50D11AAF4128009992EC /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7B50A61AAF3FFD009992EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7B50841AAF3FFD009992EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7B508B1AAF3FFD009992EC;
+			remoteInfo = gasOax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF7B508C1AAF3FFD009992EC /* gasOax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gasOax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7B50901AAF3FFD009992EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7B50911AAF3FFD009992EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF7B50931AAF3FFD009992EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF7B50941AAF3FFD009992EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF7B50961AAF3FFD009992EC /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		FF7B50971AAF3FFD009992EC /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		FF7B509A1AAF3FFD009992EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7B509C1AAF3FFD009992EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF7B509F1AAF3FFD009992EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF7B50A51AAF3FFD009992EC /* gasOaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gasOaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7B50AA1AAF3FFD009992EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7B50AB1AAF3FFD009992EC /* gasOaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gasOaxTests.m; sourceTree = "<group>"; };
+		FF7B50B61AAF4094009992EC /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		FF7B50B81AAF40A4009992EC /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		FF7B50BB1AAF40CA009992EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF7B50BD1AAF40D2009992EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FF7B50BF1AAF40D9009992EC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FF7B50C11AAF40E3009992EC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FF7B50C31AAF40EB009992EC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FF7B50C51AAF40F3009992EC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FF7B50C71AAF40FE009992EC /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FF7B50C91AAF4105009992EC /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FF7B50CB1AAF410F009992EC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FF7B50CD1AAF4117009992EC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FF7B50CF1AAF4120009992EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FF7B50D11AAF4128009992EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7B50891AAF3FFD009992EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B50D21AAF4128009992EC /* SystemConfiguration.framework in Frameworks */,
+				FF7B50D01AAF4120009992EC /* QuartzCore.framework in Frameworks */,
+				FF7B50CE1AAF4117009992EC /* OpenGLES.framework in Frameworks */,
+				FF7B50CC1AAF410F009992EC /* libz.dylib in Frameworks */,
+				FF7B50CA1AAF4105009992EC /* libicucore.dylib in Frameworks */,
+				FF7B50C81AAF40FE009992EC /* libc++.dylib in Frameworks */,
+				FF7B50C61AAF40F3009992EC /* ImageIO.framework in Frameworks */,
+				FF7B50C41AAF40EB009992EC /* GLKit.framework in Frameworks */,
+				FF7B50C21AAF40E3009992EC /* CoreText.framework in Frameworks */,
+				FF7B50C01AAF40D9009992EC /* CoreLocation.framework in Frameworks */,
+				FF7B50BE1AAF40D2009992EC /* CoreData.framework in Frameworks */,
+				FF7B50BC1AAF40CA009992EC /* AVFoundation.framework in Frameworks */,
+				FF7B50B71AAF4094009992EC /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7B50A21AAF3FFD009992EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7B50831AAF3FFD009992EC = {
+			isa = PBXGroup;
+			children = (
+				FF7B50BA1AAF40B4009992EC /* libs */,
+				FF7B50B51AAF4054009992EC /* googlemaps */,
+				FF7B508E1AAF3FFD009992EC /* gasOax */,
+				FF7B50A81AAF3FFD009992EC /* gasOaxTests */,
+				FF7B508D1AAF3FFD009992EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7B508D1AAF3FFD009992EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B508C1AAF3FFD009992EC /* gasOax.app */,
+				FF7B50A51AAF3FFD009992EC /* gasOaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7B508E1AAF3FFD009992EC /* gasOax */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B50931AAF3FFD009992EC /* AppDelegate.h */,
+				FF7B50941AAF3FFD009992EC /* AppDelegate.m */,
+				FF7B50961AAF3FFD009992EC /* Home.h */,
+				FF7B50971AAF3FFD009992EC /* Home.m */,
+				FF7B50991AAF3FFD009992EC /* Main.storyboard */,
+				FF7B509C1AAF3FFD009992EC /* Images.xcassets */,
+				FF7B509E1AAF3FFD009992EC /* LaunchScreen.xib */,
+				FF7B508F1AAF3FFD009992EC /* Supporting Files */,
+			);
+			path = gasOax;
+			sourceTree = "<group>";
+		};
+		FF7B508F1AAF3FFD009992EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B50901AAF3FFD009992EC /* Info.plist */,
+				FF7B50911AAF3FFD009992EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF7B50A81AAF3FFD009992EC /* gasOaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B50AB1AAF3FFD009992EC /* gasOaxTests.m */,
+				FF7B50A91AAF3FFD009992EC /* Supporting Files */,
+			);
+			path = gasOaxTests;
+			sourceTree = "<group>";
+		};
+		FF7B50A91AAF3FFD009992EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B50AA1AAF3FFD009992EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF7B50B51AAF4054009992EC /* googlemaps */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B50B81AAF40A4009992EC /* GoogleMaps.bundle */,
+				FF7B50B61AAF4094009992EC /* GoogleMaps.framework */,
+			);
+			name = googlemaps;
+			sourceTree = "<group>";
+		};
+		FF7B50BA1AAF40B4009992EC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B50BB1AAF40CA009992EC /* AVFoundation.framework */,
+				FF7B50BD1AAF40D2009992EC /* CoreData.framework */,
+				FF7B50BF1AAF40D9009992EC /* CoreLocation.framework */,
+				FF7B50C11AAF40E3009992EC /* CoreText.framework */,
+				FF7B50C31AAF40EB009992EC /* GLKit.framework */,
+				FF7B50C51AAF40F3009992EC /* ImageIO.framework */,
+				FF7B50C71AAF40FE009992EC /* libc++.dylib */,
+				FF7B50C91AAF4105009992EC /* libicucore.dylib */,
+				FF7B50CB1AAF410F009992EC /* libz.dylib */,
+				FF7B50CD1AAF4117009992EC /* OpenGLES.framework */,
+				FF7B50CF1AAF4120009992EC /* QuartzCore.framework */,
+				FF7B50D11AAF4128009992EC /* SystemConfiguration.framework */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7B508B1AAF3FFD009992EC /* gasOax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7B50AF1AAF3FFD009992EC /* Build configuration list for PBXNativeTarget "gasOax" */;
+			buildPhases = (
+				FF7B50881AAF3FFD009992EC /* Sources */,
+				FF7B50891AAF3FFD009992EC /* Frameworks */,
+				FF7B508A1AAF3FFD009992EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gasOax;
+			productName = gasOax;
+			productReference = FF7B508C1AAF3FFD009992EC /* gasOax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF7B50A41AAF3FFD009992EC /* gasOaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7B50B21AAF3FFD009992EC /* Build configuration list for PBXNativeTarget "gasOaxTests" */;
+			buildPhases = (
+				FF7B50A11AAF3FFD009992EC /* Sources */,
+				FF7B50A21AAF3FFD009992EC /* Frameworks */,
+				FF7B50A31AAF3FFD009992EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7B50A71AAF3FFD009992EC /* PBXTargetDependency */,
+			);
+			name = gasOaxTests;
+			productName = gasOaxTests;
+			productReference = FF7B50A51AAF3FFD009992EC /* gasOaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7B50841AAF3FFD009992EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = felipe;
+				TargetAttributes = {
+					FF7B508B1AAF3FFD009992EC = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = QXF33N93KH;
+					};
+					FF7B50A41AAF3FFD009992EC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FF7B508B1AAF3FFD009992EC;
+					};
+				};
+			};
+			buildConfigurationList = FF7B50871AAF3FFD009992EC /* Build configuration list for PBXProject "gasOax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7B50831AAF3FFD009992EC;
+			productRefGroup = FF7B508D1AAF3FFD009992EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7B508B1AAF3FFD009992EC /* gasOax */,
+				FF7B50A41AAF3FFD009992EC /* gasOaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7B508A1AAF3FFD009992EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B509B1AAF3FFD009992EC /* Main.storyboard in Resources */,
+				FF7B50A01AAF3FFD009992EC /* LaunchScreen.xib in Resources */,
+				FF7B509D1AAF3FFD009992EC /* Images.xcassets in Resources */,
+				FF7B50B91AAF40A4009992EC /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7B50A31AAF3FFD009992EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7B50881AAF3FFD009992EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B50981AAF3FFD009992EC /* Home.m in Sources */,
+				FF7B50951AAF3FFD009992EC /* AppDelegate.m in Sources */,
+				FF7B50921AAF3FFD009992EC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7B50A11AAF3FFD009992EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B50AC1AAF3FFD009992EC /* gasOaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7B50A71AAF3FFD009992EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7B508B1AAF3FFD009992EC /* gasOax */;
+			targetProxy = FF7B50A61AAF3FFD009992EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7B50991AAF3FFD009992EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7B509A1AAF3FFD009992EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7B509E1AAF3FFD009992EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7B509F1AAF3FFD009992EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7B50AD1AAF3FFD009992EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF7B50AE1AAF3FFD009992EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7B50B01AAF3FFD009992EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = gasOax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF7B50B11AAF3FFD009992EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = gasOax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF7B50B31AAF3FFD009992EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gasOaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gasOax.app/gasOax";
+			};
+			name = Debug;
+		};
+		FF7B50B41AAF3FFD009992EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gasOaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gasOax.app/gasOax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7B50871AAF3FFD009992EC /* Build configuration list for PBXProject "gasOax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7B50AD1AAF3FFD009992EC /* Debug */,
+				FF7B50AE1AAF3FFD009992EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7B50AF1AAF3FFD009992EC /* Build configuration list for PBXNativeTarget "gasOax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7B50B01AAF3FFD009992EC /* Debug */,
+				FF7B50B11AAF3FFD009992EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF7B50B21AAF3FFD009992EC /* Build configuration list for PBXNativeTarget "gasOaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7B50B31AAF3FFD009992EC /* Debug */,
+				FF7B50B41AAF3FFD009992EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7B50841AAF3FFD009992EC /* Project object */;
+}
