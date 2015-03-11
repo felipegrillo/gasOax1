@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface Home : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *btnVenta;
+@property (strong, nonatomic) IBOutlet UIButton *btnAtencion;
+@property (strong, nonatomic) IBOutlet UIButton *btncentro;
 
 
 @end
