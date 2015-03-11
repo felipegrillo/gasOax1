@@ -11,7 +11,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import <GoogleMaps/GoogleMaps.h>
 #import <Parse/Parse.h>
-@interface ubicacionViewController : UIViewController <CLLocationManagerDelegate,GMSMapViewDelegate>
+@interface ubicacion : UIViewController <CLLocationManagerDelegate,GMSMapViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIButton *btnAtrasMenu;
 @property (copy,nonatomic) NSSet *markers;

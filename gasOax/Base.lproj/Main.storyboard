@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="-351" y="189"/>
         </scene>
-        <!--Ubicacion View Controller-->
+        <!--Ubicacion-->
         <scene sceneID="Yj1-oU-odz">
             <objects>
-                <viewController id="ZLn-AN-Ldj" customClass="ubicacionViewController" sceneMemberID="viewController">
+                <viewController id="ZLn-AN-Ldj" customClass="ubicacion" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ff9-Th-awu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

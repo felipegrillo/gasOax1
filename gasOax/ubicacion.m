@@ -6,18 +6,18 @@
 //  Copyright (c) 2015 felipe. All rights reserved.
 //
 
-#import "ubicacionViewController.h"
+#import "ubicacion.h"
 NSString    *strUserLocation;
 float       mlatitude;
 float       mlongitude;
 GMSMapView *mapView;
 
 
-@interface ubicacionViewController ()
+@interface ubicacion ()
 
 @end
 
-@implementation ubicacionViewController
+@implementation ubicacion
 
 - (void)viewDidLoad {
     [super viewDidLoad];
