@@ -19,6 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // First we create a new color with the image
+    UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed: @"backgroundgasnatural.png"]];
+    
+    // then we set the backgroundColor property to the color created above
+    self.viewPrincipal.backgroundColor = background;
+  
+    
+   
+   
 }
 
 - (void)didReceiveMemoryWarning {

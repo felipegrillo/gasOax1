@@ -12,6 +12,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *btnVenta;
 @property (strong, nonatomic) IBOutlet UIButton *btnAtencion;
 @property (strong, nonatomic) IBOutlet UIButton *btncentro;
+@property (strong, nonatomic) IBOutlet UIView *viewPrincipal;
 
 
 @end

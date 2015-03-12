@@ -28,6 +28,14 @@ GMSMapView *mapView;
     [self.locationManager  requestWhenInUseAuthorization];
     [self.locationManager  requestAlwaysAuthorization];
     [self.locationManager startUpdatingLocation];
+    _btnAtrasMenu=[UIButton buttonWithType:UIButtonTypeCustom];
+    UIImage* btnMenuImg =[UIImage imageNamed:@"btnicon.png"];
+    [_btnAtrasMenu setImage:btnMenuImg  forState:UIControlStateNormal];
+
+ //   btnAtrasimagen = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
+  //  UIImage* infobuttonImg =[UIImage imageNamed:@"btnicon.png"];
+   // [infobutton setImage:infobuttonImg forState:UIControlStateNormal];
+   // [infobuttonImg release];
     // Do any additional setup after loading the view.
 }
 
@@ -76,7 +84,7 @@ GMSMapView *mapView;
     // coordinate -33.86,151.20 at zoom level 6.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:mlatitude
                                                             longitude:mlongitude
-                                                                 zoom:12];
+                                                                 zoom:11];
     mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
     
     mapView.frame = CGRectMake(0, 0, self.viewMap.frame.size.width, self.viewMap.frame.size.height);

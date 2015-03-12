@@ -47,6 +47,19 @@
 		FF922D391AAF8CC1000D8CB3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF922D381AAF8CC1000D8CB3 /* Bolts.framework */; };
 		FF922D3C1AAFC22E000D8CB3 /* ubicacion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D3B1AAFC22E000D8CB3 /* ubicacion.m */; };
 		FF922D3F1AAFE588000D8CB3 /* pedido.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D3E1AAFE588000D8CB3 /* pedido.m */; };
+		FF922D421AB0A14A000D8CB3 /* backgroundgasnatural.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D411AB0A14A000D8CB3 /* backgroundgasnatural.png */; };
+		FF922D441AB0A296000D8CB3 /* gasnatural.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D431AB0A296000D8CB3 /* gasnatural.png */; };
+		FF922D521AB0B59C000D8CB3 /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D511AB0B59C000D8CB3 /* icon1@2x.png */; };
+		FF922D541AB0B5E5000D8CB3 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D531AB0B5E5000D8CB3 /* icon@2x.png */; };
+		FF922D561AB0C8EC000D8CB3 /* btnicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D551AB0C8EC000D8CB3 /* btnicon.png */; };
+		FF922D591AB0DE5A000D8CB3 /* compra.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D581AB0DE5A000D8CB3 /* compra.m */; };
+		FF922D5B1AB0E0A4000D8CB3 /* recarga.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D5A1AB0E0A4000D8CB3 /* recarga.png */; };
+		FF922D5D1AB0E48D000D8CB3 /* iconmap.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D5C1AB0E48D000D8CB3 /* iconmap.png */; };
+		FF922D5F1AB0E53E000D8CB3 /* btniconmap.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D5E1AB0E53E000D8CB3 /* btniconmap.png */; };
+		FF922D621AB0E789000D8CB3 /* atencion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D611AB0E789000D8CB3 /* atencion.m */; };
+		FF922D661AB10046000D8CB3 /* atencion.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D651AB10046000D8CB3 /* atencion.png */; };
+		FF922D691AB12F4B000D8CB3 /* ruta.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D681AB12F4B000D8CB3 /* ruta.m */; };
+		FF922D6B1AB13659000D8CB3 /* backCompra.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D6A1AB13659000D8CB3 /* backCompra.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +121,22 @@
 		FF922D3B1AAFC22E000D8CB3 /* ubicacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ubicacion.m; sourceTree = "<group>"; };
 		FF922D3D1AAFE588000D8CB3 /* pedido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pedido.h; sourceTree = "<group>"; };
 		FF922D3E1AAFE588000D8CB3 /* pedido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pedido.m; sourceTree = "<group>"; };
+		FF922D411AB0A14A000D8CB3 /* backgroundgasnatural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundgasnatural.png; sourceTree = "<group>"; };
+		FF922D431AB0A296000D8CB3 /* gasnatural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gasnatural.png; sourceTree = "<group>"; };
+		FF922D511AB0B59C000D8CB3 /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
+		FF922D531AB0B5E5000D8CB3 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		FF922D551AB0C8EC000D8CB3 /* btnicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnicon.png; sourceTree = "<group>"; };
+		FF922D571AB0DE5A000D8CB3 /* compra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compra.h; path = ../compra.h; sourceTree = "<group>"; };
+		FF922D581AB0DE5A000D8CB3 /* compra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = compra.m; path = ../compra.m; sourceTree = "<group>"; };
+		FF922D5A1AB0E0A4000D8CB3 /* recarga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recarga.png; sourceTree = "<group>"; };
+		FF922D5C1AB0E48D000D8CB3 /* iconmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconmap.png; sourceTree = "<group>"; };
+		FF922D5E1AB0E53E000D8CB3 /* btniconmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btniconmap.png; sourceTree = "<group>"; };
+		FF922D601AB0E789000D8CB3 /* atencion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atencion.h; sourceTree = "<group>"; };
+		FF922D611AB0E789000D8CB3 /* atencion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = atencion.m; sourceTree = "<group>"; };
+		FF922D651AB10046000D8CB3 /* atencion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atencion.png; sourceTree = "<group>"; };
+		FF922D671AB12F4B000D8CB3 /* ruta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ruta.h; sourceTree = "<group>"; };
+		FF922D681AB12F4B000D8CB3 /* ruta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ruta.m; sourceTree = "<group>"; };
+		FF922D6A1AB13659000D8CB3 /* backCompra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backCompra.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +190,7 @@
 		FF7B50831AAF3FFD009992EC = {
 			isa = PBXGroup;
 			children = (
+				FF922D401AB0A13A000D8CB3 /* imagen */,
 				FF7B51071AAF4F84009992EC /* parse */,
 				FF7B50BA1AAF40B4009992EC /* libs */,
 				FF7B50B51AAF4054009992EC /* googlemaps */,
@@ -182,6 +212,14 @@
 		FF7B508E1AAF3FFD009992EC /* gasOax */ = {
 			isa = PBXGroup;
 			children = (
+				FF922D671AB12F4B000D8CB3 /* ruta.h */,
+				FF922D681AB12F4B000D8CB3 /* ruta.m */,
+				FF922D601AB0E789000D8CB3 /* atencion.h */,
+				FF922D611AB0E789000D8CB3 /* atencion.m */,
+				FF922D571AB0DE5A000D8CB3 /* compra.h */,
+				FF922D581AB0DE5A000D8CB3 /* compra.m */,
+				FF922D3D1AAFE588000D8CB3 /* pedido.h */,
+				FF922D3E1AAFE588000D8CB3 /* pedido.m */,
 				FF7B50931AAF3FFD009992EC /* AppDelegate.h */,
 				FF7B50941AAF3FFD009992EC /* AppDelegate.m */,
 				FF7B50961AAF3FFD009992EC /* Home.h */,
@@ -192,8 +230,6 @@
 				FF7B509C1AAF3FFD009992EC /* Images.xcassets */,
 				FF7B509E1AAF3FFD009992EC /* LaunchScreen.xib */,
 				FF7B508F1AAF3FFD009992EC /* Supporting Files */,
-				FF922D3D1AAFE588000D8CB3 /* pedido.h */,
-				FF922D3E1AAFE588000D8CB3 /* pedido.m */,
 			);
 			path = gasOax;
 			sourceTree = "<group>";
@@ -201,6 +237,8 @@
 		FF7B508F1AAF3FFD009992EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF922D531AB0B5E5000D8CB3 /* icon@2x.png */,
+				FF922D511AB0B59C000D8CB3 /* icon1@2x.png */,
 				FF7B50901AAF3FFD009992EC /* Info.plist */,
 				FF7B50911AAF3FFD009992EC /* main.m */,
 			);
@@ -274,6 +312,21 @@
 				FF922D361AAF8C87000D8CB3 /* Parse.framework */,
 			);
 			name = parse;
+			sourceTree = "<group>";
+		};
+		FF922D401AB0A13A000D8CB3 /* imagen */ = {
+			isa = PBXGroup;
+			children = (
+				FF922D6A1AB13659000D8CB3 /* backCompra.png */,
+				FF922D651AB10046000D8CB3 /* atencion.png */,
+				FF922D5E1AB0E53E000D8CB3 /* btniconmap.png */,
+				FF922D5C1AB0E48D000D8CB3 /* iconmap.png */,
+				FF922D5A1AB0E0A4000D8CB3 /* recarga.png */,
+				FF922D551AB0C8EC000D8CB3 /* btnicon.png */,
+				FF922D431AB0A296000D8CB3 /* gasnatural.png */,
+				FF922D411AB0A14A000D8CB3 /* backgroundgasnatural.png */,
+			);
+			name = imagen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,9 +410,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF922D5F1AB0E53E000D8CB3 /* btniconmap.png in Resources */,
 				FF7B509B1AAF3FFD009992EC /* Main.storyboard in Resources */,
+				FF922D541AB0B5E5000D8CB3 /* icon@2x.png in Resources */,
+				FF922D441AB0A296000D8CB3 /* gasnatural.png in Resources */,
+				FF922D5B1AB0E0A4000D8CB3 /* recarga.png in Resources */,
+				FF922D661AB10046000D8CB3 /* atencion.png in Resources */,
+				FF922D5D1AB0E48D000D8CB3 /* iconmap.png in Resources */,
+				FF922D421AB0A14A000D8CB3 /* backgroundgasnatural.png in Resources */,
 				FF7B50A01AAF3FFD009992EC /* LaunchScreen.xib in Resources */,
+				FF922D561AB0C8EC000D8CB3 /* btnicon.png in Resources */,
 				FF7B509D1AAF3FFD009992EC /* Images.xcassets in Resources */,
+				FF922D521AB0B59C000D8CB3 /* icon1@2x.png in Resources */,
+				FF922D6B1AB13659000D8CB3 /* backCompra.png in Resources */,
 				FF7B50B91AAF40A4009992EC /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,8 +441,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF922D621AB0E789000D8CB3 /* atencion.m in Sources */,
 				FF922D3C1AAFC22E000D8CB3 /* ubicacion.m in Sources */,
+				FF922D691AB12F4B000D8CB3 /* ruta.m in Sources */,
 				FF7B50981AAF3FFD009992EC /* Home.m in Sources */,
+				FF922D591AB0DE5A000D8CB3 /* compra.m in Sources */,
 				FF7B50951AAF3FFD009992EC /* AppDelegate.m in Sources */,
 				FF922D3F1AAFE588000D8CB3 /* pedido.m in Sources */,
 				FF7B50921AAF3FFD009992EC /* main.m in Sources */,
@@ -522,6 +588,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = gasOax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -542,6 +609,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = gasOax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
