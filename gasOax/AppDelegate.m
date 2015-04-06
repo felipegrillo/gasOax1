@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
 #import <GoogleMaps/GoogleMaps.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 
 @interface AppDelegate ()
@@ -27,13 +29,17 @@
     [Parse enableLocalDatastore];
     
     // Initialize Parse.
-   [Parse setApplicationId:@"oEKjSuzrlFxjayHOeJqs0wOpiMu8l7vnejEGi0M8"
-               clientKey:@"GgMy5OST9F4VD76vFs0B9Qu8ilaOouEuJ4kcCcNX"];
+   [Parse setApplicationId:@"tFLm6a1ve0otUFdVvwu7kRtGfBNH0S0Pn5BKQ8aN"
+               clientKey:@"RJobmRBkxgT57q04q9F7v6480FSVnJHHf0cechRG"];
     
     // [Optional] Track statistics around application opens.
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     // Override point for customization after application launch.
-    return YES;
+      [FBSDKLoginButton class];
+    
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                    didFinishLaunchingWithOptions:launchOptions];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -52,10 +58,20 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSDKAppEvents activateApp];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                          openURL:url
+                                                sourceApplication:sourceApplication
+                                                       annotation:annotation];
 }
 
 @end

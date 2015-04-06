@@ -8,6 +8,7 @@
 
 #import "Home.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import <Parse/Parse.h>
 
 @interface Home () {
     GMSMapView *mapView_;
@@ -24,7 +25,9 @@
     
     // then we set the backgroundColor property to the color created above
     self.viewPrincipal.backgroundColor = background;
-  
+    
+     
+ 
     
    
    
@@ -33,6 +36,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+}
+
+- (IBAction)btnPressedLoginOut:(id)sender {
+    [PFUser logOut];
+    [self performSegueWithIdentifier:@"inicioLogin" sender:nil];
+    
 }
 
 @end

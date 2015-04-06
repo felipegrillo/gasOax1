@@ -13,6 +13,9 @@
 @property (strong, nonatomic) IBOutlet UIButton *btnAtencion;
 @property (strong, nonatomic) IBOutlet UIButton *btncentro;
 @property (strong, nonatomic) IBOutlet UIView *viewPrincipal;
+@property (weak, nonatomic) IBOutlet UIButton *btnloginout;
+- (IBAction)btnPressedLoginOut:(id)sender;
+
 
 
 @end

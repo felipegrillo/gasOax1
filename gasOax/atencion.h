@@ -12,5 +12,9 @@
 @property (strong, nonatomic) IBOutlet UIView *viewUbicacion;
 @property (strong, nonatomic) IBOutlet UIView *viewAtencion;
 @property (strong, nonatomic) IBOutlet UIButton *btnAtrasAtencion;
+@property (strong, nonatomic) IBOutlet UIButton *btnPhoneAtencion;
+- (IBAction)btnCallPhone:(id)sender;
+
+
 
 @end

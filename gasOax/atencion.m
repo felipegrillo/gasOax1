@@ -7,7 +7,8 @@
 //
 
 #import "atencion.h"
-
+NSString *phoneNumber;
+UIAlertView *alerta;
 @interface atencion ()
 
 @end
@@ -17,25 +18,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed: @"atencion.png"]];
-    
-    // then we set the backgroundColor property to the color created above
     self.viewAtencion.backgroundColor = background;
-    // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void)callPhone
+ {
+     //Recibo cadena de telefono
+      NSMutableString *myStringPhone = [NSMutableString stringWithString:_btnPhoneAtencion.titleLabel.text];
+     [myStringPhone  deleteCharactersInRange: [myStringPhone rangeOfString: @"Tel: "]];
+     //Realiza recorte de cadena
+     phoneNumber=[NSString stringWithString:myStringPhone];
 
-/*
-#pragma mark - Navigation
+     NSURL *phoneUrl = [NSURL URLWithString:[NSString  stringWithFormat:@"telprompt:%@",phoneNumber]];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+     if ([[UIApplication sharedApplication] canOpenURL:phoneUrl]) {
+         [[UIApplication sharedApplication] openURL:phoneUrl];
+     } else
+     {
+         alerta = [[UIAlertView alloc]initWithTitle:@"Alert" message:@"Servicio de llamada no esta dispoblie!!!" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+         [alerta show];
+     }
+ }
+
+
+- (IBAction)btnCallPhone:(id)sender {
+    [self callPhone];
+    NSLog(@"Llamando.....");
 }
-*/
-
 @end

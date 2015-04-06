@@ -1,22 +1,22 @@
 //
-//  ruta.m
+//  restablecepassword.m
 //  gasOax
 //
-//  Created by felipe on 04/04/15.
+//  Created by felipe on 02/04/15.
 //  Copyright (c) 2015 felipe. All rights reserved.
 //
 
-#import "ruta.h"
+#import "restablecepassword.h"
 
-@interface ruta ()
+@interface restablecepassword ()
 
 @end
 
-@implementation ruta
+@implementation restablecepassword
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

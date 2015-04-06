@@ -32,11 +32,6 @@ GMSMapView *mapView;
     UIImage* btnMenuImg =[UIImage imageNamed:@"btnicon.png"];
     [_btnAtrasMenu setImage:btnMenuImg  forState:UIControlStateNormal];
 
- //   btnAtrasimagen = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
-  //  UIImage* infobuttonImg =[UIImage imageNamed:@"btnicon.png"];
-   // [infobutton setImage:infobuttonImg forState:UIControlStateNormal];
-   // [infobuttonImg release];
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -73,9 +68,6 @@ GMSMapView *mapView;
     NSLog(@"did tap at coordinate: (%f, %f)", coordinate.latitude, coordinate.longitude);
 }
 
-
-
-
 - (void)paintMap
 {
     //-------------------------------------------------------------------------------
@@ -94,11 +86,7 @@ GMSMapView *mapView;
     mapView.settings.compassButton = YES;
     mapView.settings.myLocationButton = YES;
 
-   ;
-
     [self imprimeMarker];
-   // [self.viewMap addSubview:mapView];
-    
 }
 
 - (void) imprimeMarker{
@@ -132,7 +120,12 @@ GMSMapView *mapView;
     marker4.title = @"Planta San Martin Toxpalan";
     marker4.snippet = @"Carr. Federal paraje Chinacango km. 2.3, San Martin Toxpalan, Oaxaca! \nTel: 01-800-5009554";
     marker4.map = mapView;
-    [self.viewMap addSubview:mapView];
+    
+    GMSMutablePath *path = [GMSMutablePath path];
+    [path addCoordinate:CLLocationCoordinate2DMake(@(mlatitude).doubleValue,@(mlongitude).doubleValue)];
+    [path addCoordinate:CLLocationCoordinate2DMake(@(17.051863).doubleValue,@(-96.647405).doubleValue)];
+    
+
 }
 - (IBAction)btnMapa:(id)sender {
     [self paintMap];

@@ -1,18 +1,18 @@
 //
-//  ruta.m
+//  loginViewController.m
 //  gasOax
 //
-//  Created by felipe on 04/04/15.
+//  Created by felipe on 01/04/15.
 //  Copyright (c) 2015 felipe. All rights reserved.
 //
 
-#import "ruta.h"
+#import "loginViewController.h"
 
-@interface ruta ()
+@interface loginViewController ()
 
 @end
 
-@implementation ruta
+@implementation loginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
