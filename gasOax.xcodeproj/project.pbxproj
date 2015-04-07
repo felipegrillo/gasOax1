@@ -79,6 +79,7 @@
 		FFA032C41ACCB7BE00891DD0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032C01ACCB7BE00891DD0 /* FBSDKLoginKit.framework */; };
 		FFA032C51ACCB7BE00891DD0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032C11ACCB7BE00891DD0 /* FBSDKShareKit.framework */; };
 		FFC92E101AD37B3600BDE925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC92E0F1AD37B3600BDE925 /* Main.storyboard */; };
+		FFC92E131AD37CCC00BDE925 /* addPedido.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC92E121AD37CCC00BDE925 /* addPedido.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -180,6 +181,8 @@
 		FFA032C01ACCB7BE00891DD0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FFA032C11ACCB7BE00891DD0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		FFC92E0F1AD37B3600BDE925 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FFC92E111AD37CCC00BDE925 /* addPedido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addPedido.h; sourceTree = "<group>"; };
+		FFC92E121AD37CCC00BDE925 /* addPedido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addPedido.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +392,8 @@
 				FF76758B1AD3136400FB86E4 /* cellPedido.m */,
 				FF76758D1AD3455300FB86E4 /* pedidos.h */,
 				FF76758E1AD3455300FB86E4 /* pedidos.m */,
+				FFC92E111AD37CCC00BDE925 /* addPedido.h */,
+				FFC92E121AD37CCC00BDE925 /* addPedido.m */,
 			);
 			name = pedido;
 			sourceTree = "<group>";
@@ -578,6 +583,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC92E131AD37CCC00BDE925 /* addPedido.m in Sources */,
 				FF922D621AB0E789000D8CB3 /* atencion.m in Sources */,
 				FF7049291AD07B8900B03290 /* ruta.m in Sources */,
 				FF72426A1ACDDB9C0090235A /* detalleLogin.m in Sources */,
