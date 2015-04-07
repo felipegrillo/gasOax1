@@ -46,7 +46,6 @@ NSString    *strUserLocation;
        // NSString *name=@"";
        // [name setValue:object forKey:@"Nombre"];
         [self.txtNombre.text setValue:object forKey:@"Nombre"];
-        
         NSLog(@"Id cliente%@",object.objectId);
         //NSLog(@"Name: %@",name);
         
@@ -116,7 +115,18 @@ NSString    *strUserLocation;
     insertCliente[@"Domicilio"] =self.txtDireccion.text;
     insertCliente[@"Telefono"]=self.txtTelefono.text;
     insertCliente[@"Correo"]=self.txtCorreo.text;
-    insertCliente[@"Picture"] = imageFile;
+    
+    if (imageFile==nil) {
+        NSData *imageDataNull = UIImageJPEGRepresentation(self.imgenView.image, 0.8);
+        UIImage *imageNull=[UIImage imageNamed:@"signo.png"];
+        [self.imgenView setImage:imageNull];
+        imageFile = [PFFile fileWithName:filename data:imageDataNull];
+        
+        insertCliente[@"Picture"]=imageFile ;
+    }else{
+        insertCliente[@"Picture"] = imageFile ;
+    
+    }
 
  
     mlatitude = self.locationManager.location.coordinate.latitude;

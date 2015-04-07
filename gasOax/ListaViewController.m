@@ -42,11 +42,11 @@ NSArray *myObjects;
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 64;
+    return 100;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+  
     NSLog(@"cellLista");
     static NSString *CellIdentifier = @"cellLista";
     
@@ -58,14 +58,16 @@ NSArray *myObjects;
     PFObject *tempObject=[obj objectAtIndex:indexPath.row];
     [[tempObject objectForKey:@"Picture"] getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
         if (!error) {
-            UIImage *imge = [UIImage imageWithData:data];
+         //   UIImage *imge = [UIImage imageWithData:data];
 
             // image can now be set on a UIImageView
            // cell.iconImageView.image=imge;
 
             
         }else{
+        
             NSLog(@"No tiene imagen");
+            
         }
     }];
     
@@ -73,7 +75,7 @@ NSArray *myObjects;
  //   NSDate *date = [NSDate date];
 
     cell.lblServicio.text=[tempObject objectForKey:@"Nombre"];
-    cell.lblFecha.text=[tempObject objectForKey:@"updatedAt"];
+  //  cell.lblFecha.text=[tempObject objectForKey:@"updatedAt"];
     
     return cell;
 }

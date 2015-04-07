@@ -13,10 +13,12 @@
 		FF7048FE1AD06C3600B03290 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7048FD1AD06C3600B03290 /* libz.1.2.5.dylib */; };
 		FF7049291AD07B8900B03290 /* ruta.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7049281AD07B8900B03290 /* ruta.m */; };
 		FF72426A1ACDDB9C0090235A /* detalleLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7242691ACDDB9C0090235A /* detalleLogin.m */; };
+		FF7675831AD2F5EB00FB86E4 /* signo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FF7675821AD2F5EB00FB86E4 /* signo.jpeg */; };
+		FF76758C1AD3136400FB86E4 /* cellPedido.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76758B1AD3136400FB86E4 /* cellPedido.m */; };
+		FF76758F1AD3455300FB86E4 /* pedidos.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76758E1AD3455300FB86E4 /* pedidos.m */; };
 		FF7B50921AAF3FFD009992EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50911AAF3FFD009992EC /* main.m */; };
 		FF7B50951AAF3FFD009992EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50941AAF3FFD009992EC /* AppDelegate.m */; };
 		FF7B50981AAF3FFD009992EC /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50971AAF3FFD009992EC /* Home.m */; };
-		FF7B509B1AAF3FFD009992EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7B50991AAF3FFD009992EC /* Main.storyboard */; };
 		FF7B509D1AAF3FFD009992EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7B509C1AAF3FFD009992EC /* Images.xcassets */; };
 		FF7B50A01AAF3FFD009992EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7B509E1AAF3FFD009992EC /* LaunchScreen.xib */; };
 		FF7B50AC1AAF3FFD009992EC /* gasOaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7B50AB1AAF3FFD009992EC /* gasOaxTests.m */; };
@@ -56,7 +58,6 @@
 		FF7BB5CC1ACF4C9900BCB932 /* cellTableServicio.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7BB5CB1ACF4C9900BCB932 /* cellTableServicio.m */; };
 		FF922D371AAF8C87000D8CB3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF922D361AAF8C87000D8CB3 /* Parse.framework */; };
 		FF922D3C1AAFC22E000D8CB3 /* ubicacion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D3B1AAFC22E000D8CB3 /* ubicacion.m */; };
-		FF922D3F1AAFE588000D8CB3 /* pedido.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D3E1AAFE588000D8CB3 /* pedido.m */; };
 		FF922D421AB0A14A000D8CB3 /* backgroundgasnatural.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D411AB0A14A000D8CB3 /* backgroundgasnatural.png */; };
 		FF922D441AB0A296000D8CB3 /* gasnatural.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D431AB0A296000D8CB3 /* gasnatural.png */; };
 		FF922D521AB0B59C000D8CB3 /* icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D511AB0B59C000D8CB3 /* icon1@2x.png */; };
@@ -77,6 +78,7 @@
 		FFA032C31ACCB7BE00891DD0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032BF1ACCB7BE00891DD0 /* FBSDKCoreKit.framework */; };
 		FFA032C41ACCB7BE00891DD0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032C01ACCB7BE00891DD0 /* FBSDKLoginKit.framework */; };
 		FFA032C51ACCB7BE00891DD0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032C11ACCB7BE00891DD0 /* FBSDKShareKit.framework */; };
+		FFC92E101AD37B3600BDE925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC92E0F1AD37B3600BDE925 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,11 @@
 		FF7049281AD07B8900B03290 /* ruta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ruta.m; sourceTree = "<group>"; };
 		FF7242681ACDDB9C0090235A /* detalleLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detalleLogin.h; sourceTree = "<group>"; };
 		FF7242691ACDDB9C0090235A /* detalleLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detalleLogin.m; sourceTree = "<group>"; };
+		FF7675821AD2F5EB00FB86E4 /* signo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signo.jpeg; sourceTree = "<group>"; };
+		FF76758A1AD3136400FB86E4 /* cellPedido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellPedido.h; sourceTree = "<group>"; };
+		FF76758B1AD3136400FB86E4 /* cellPedido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellPedido.m; sourceTree = "<group>"; };
+		FF76758D1AD3455300FB86E4 /* pedidos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pedidos.h; sourceTree = "<group>"; };
+		FF76758E1AD3455300FB86E4 /* pedidos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pedidos.m; sourceTree = "<group>"; };
 		FF7B508C1AAF3FFD009992EC /* gasOax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gasOax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7B50901AAF3FFD009992EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF7B50911AAF3FFD009992EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,7 +112,6 @@
 		FF7B50941AAF3FFD009992EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FF7B50961AAF3FFD009992EC /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		FF7B50971AAF3FFD009992EC /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
-		FF7B509A1AAF3FFD009992EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF7B509C1AAF3FFD009992EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FF7B509F1AAF3FFD009992EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FF7B50A51AAF3FFD009992EC /* gasOaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gasOaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,8 +156,6 @@
 		FF922D361AAF8C87000D8CB3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FF922D3A1AAFC22E000D8CB3 /* ubicacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubicacion.h; sourceTree = "<group>"; };
 		FF922D3B1AAFC22E000D8CB3 /* ubicacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ubicacion.m; sourceTree = "<group>"; };
-		FF922D3D1AAFE588000D8CB3 /* pedido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pedido.h; sourceTree = "<group>"; };
-		FF922D3E1AAFE588000D8CB3 /* pedido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pedido.m; sourceTree = "<group>"; };
 		FF922D411AB0A14A000D8CB3 /* backgroundgasnatural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundgasnatural.png; sourceTree = "<group>"; };
 		FF922D431AB0A296000D8CB3 /* gasnatural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gasnatural.png; sourceTree = "<group>"; };
 		FF922D511AB0B59C000D8CB3 /* icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon1@2x.png"; sourceTree = "<group>"; };
@@ -175,6 +179,7 @@
 		FFA032BF1ACCB7BE00891DD0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FFA032C01ACCB7BE00891DD0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FFA032C11ACCB7BE00891DD0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		FFC92E0F1AD37B3600BDE925 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,9 +280,9 @@
 				FF7242671ACDDB4E0090235A /* Login */,
 				FF7B50931AAF3FFD009992EC /* AppDelegate.h */,
 				FF7B50941AAF3FFD009992EC /* AppDelegate.m */,
-				FF7B50991AAF3FFD009992EC /* Main.storyboard */,
 				FF7B509C1AAF3FFD009992EC /* Images.xcassets */,
 				FF7B509E1AAF3FFD009992EC /* LaunchScreen.xib */,
+				FFC92E0F1AD37B3600BDE925 /* Main.storyboard */,
 				FF7B508F1AAF3FFD009992EC /* Supporting Files */,
 			);
 			path = gasOax;
@@ -380,8 +385,10 @@
 		FF7BB5B41ACE0CFD00BCB932 /* pedido */ = {
 			isa = PBXGroup;
 			children = (
-				FF922D3D1AAFE588000D8CB3 /* pedido.h */,
-				FF922D3E1AAFE588000D8CB3 /* pedido.m */,
+				FF76758A1AD3136400FB86E4 /* cellPedido.h */,
+				FF76758B1AD3136400FB86E4 /* cellPedido.m */,
+				FF76758D1AD3455300FB86E4 /* pedidos.h */,
+				FF76758E1AD3455300FB86E4 /* pedidos.m */,
 			);
 			name = pedido;
 			sourceTree = "<group>";
@@ -429,6 +436,7 @@
 		FF922D401AB0A13A000D8CB3 /* imagen */ = {
 			isa = PBXGroup;
 			children = (
+				FF7675821AD2F5EB00FB86E4 /* signo.jpeg */,
 				FF7048F41ACF827A00B03290 /* updates.png */,
 				FF7048F21ACF6FD100B03290 /* delet.png */,
 				FF3119461ACF553C005A9301 /* add.png */,
@@ -530,8 +538,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7675831AD2F5EB00FB86E4 /* signo.jpeg in Resources */,
 				FF922D5F1AB0E53E000D8CB3 /* btniconmap.png in Resources */,
-				FF7B509B1AAF3FFD009992EC /* Main.storyboard in Resources */,
 				FF7BB5B81ACE0EA600BCB932 /* loginout.png in Resources */,
 				FF3119471ACF553C005A9301 /* add.png in Resources */,
 				FF7048F31ACF6FD100B03290 /* delet.png in Resources */,
@@ -542,6 +550,7 @@
 				FF922D6F1AB3BA64000D8CB3 /* camera.png in Resources */,
 				FF922D5D1AB0E48D000D8CB3 /* iconmap.png in Resources */,
 				FF7BB5C31ACE472000BCB932 /* btniconderight.png in Resources */,
+				FFC92E101AD37B3600BDE925 /* Main.storyboard in Resources */,
 				FF7BB5C11ACE325400BCB932 /* mail2.png in Resources */,
 				FF922D421AB0A14A000D8CB3 /* backgroundgasnatural.png in Resources */,
 				FF922D6D1AB13A6A000D8CB3 /* backpago.jpg in Resources */,
@@ -573,14 +582,15 @@
 				FF7049291AD07B8900B03290 /* ruta.m in Sources */,
 				FF72426A1ACDDB9C0090235A /* detalleLogin.m in Sources */,
 				FF922D3C1AAFC22E000D8CB3 /* ubicacion.m in Sources */,
+				FF76758C1AD3136400FB86E4 /* cellPedido.m in Sources */,
 				FF7BB5C61ACF2E3000BCB932 /* ListaViewController.m in Sources */,
 				FF7B50981AAF3FFD009992EC /* Home.m in Sources */,
 				FF7BB5CC1ACF4C9900BCB932 /* cellTableServicio.m in Sources */,
 				FF922D591AB0DE5A000D8CB3 /* compra.m in Sources */,
 				FF7B50951AAF3FFD009992EC /* AppDelegate.m in Sources */,
-				FF922D3F1AAFE588000D8CB3 /* pedido.m in Sources */,
 				FF7B50921AAF3FFD009992EC /* main.m in Sources */,
 				FFA032931ACC9DC500891DD0 /* LoginController.m in Sources */,
+				FF76758F1AD3455300FB86E4 /* pedidos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,14 +613,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FF7B50991AAF3FFD009992EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF7B509A1AAF3FFD009992EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF7B509E1AAF3FFD009992EC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
