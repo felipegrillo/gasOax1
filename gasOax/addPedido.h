@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface addPedido : UIViewController
+@interface addPedido : UIViewController{
+    NSNumber *numpicker;
+    NSArray  *nombreCliente;
+}
+@property (strong, nonatomic) IBOutlet UIPickerView *picker;
+@property (strong, nonatomic) IBOutlet UIButton *btnBack;
+@property (strong, nonatomic) IBOutlet UITextField *txtNombre;
+@property (strong, nonatomic) IBOutlet UILabel *lblNombre;
 
 @end

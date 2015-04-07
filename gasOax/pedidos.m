@@ -53,7 +53,7 @@
     cell.lblRfc.text=[tempObject objectForKey:@"Rfc"];
     cell.lblFecha.text=[formatDate stringFromDate:[tempObject objectForKey:@"Fecha"]];    
     cell.lblCosto.text=[NSString stringWithFormat:@"%@",[tempObject objectForKey:@"Costo"]];
-
+    cell.lblNombre.text=[tempObject objectForKey:@"Nombre"];
 
     return cell;
 }
