@@ -106,6 +106,7 @@ NSArray *myObjects;
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             obj=[[NSArray alloc] initWithArray:objects];
+            
 
         }
         [_tblView reloadData];

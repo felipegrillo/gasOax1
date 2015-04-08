@@ -59,8 +59,6 @@
 }
 
 - (void) imprimeData{
- 
-        
         PFQuery *query = [PFQuery queryWithClassName:@"pedido"];
         [query orderByDescending:@"createdAt"];
         [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
