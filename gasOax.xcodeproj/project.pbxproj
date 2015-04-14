@@ -56,7 +56,6 @@
 		FF7BB5C31ACE472000BCB932 /* btniconderight.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BB5C21ACE472000BCB932 /* btniconderight.png */; };
 		FF7BB5C61ACF2E3000BCB932 /* ListaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7BB5C51ACF2E3000BCB932 /* ListaViewController.m */; };
 		FF7BB5CC1ACF4C9900BCB932 /* cellTableServicio.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7BB5CB1ACF4C9900BCB932 /* cellTableServicio.m */; };
-		FF922D371AAF8C87000D8CB3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF922D361AAF8C87000D8CB3 /* Parse.framework */; };
 		FF922D3C1AAFC22E000D8CB3 /* ubicacion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF922D3B1AAFC22E000D8CB3 /* ubicacion.m */; };
 		FF922D421AB0A14A000D8CB3 /* backgroundgasnatural.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D411AB0A14A000D8CB3 /* backgroundgasnatural.png */; };
 		FF922D441AB0A296000D8CB3 /* gasnatural.png in Resources */ = {isa = PBXBuildFile; fileRef = FF922D431AB0A296000D8CB3 /* gasnatural.png */; };
@@ -78,6 +77,7 @@
 		FFA032C31ACCB7BE00891DD0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032BF1ACCB7BE00891DD0 /* FBSDKCoreKit.framework */; };
 		FFA032C41ACCB7BE00891DD0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032C01ACCB7BE00891DD0 /* FBSDKLoginKit.framework */; };
 		FFA032C51ACCB7BE00891DD0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA032C11ACCB7BE00891DD0 /* FBSDKShareKit.framework */; };
+		FFBB9B661ADD86770006C1EE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFBB9B651ADD86770006C1EE /* Parse.framework */; };
 		FFC92E101AD37B3600BDE925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC92E0F1AD37B3600BDE925 /* Main.storyboard */; };
 		FFC92E131AD37CCC00BDE925 /* addPedido.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC92E121AD37CCC00BDE925 /* addPedido.m */; };
 /* End PBXBuildFile section */
@@ -154,7 +154,6 @@
 		FF7BB5C51ACF2E3000BCB932 /* ListaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaViewController.m; sourceTree = "<group>"; };
 		FF7BB5CA1ACF4C9900BCB932 /* cellTableServicio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellTableServicio.h; sourceTree = "<group>"; };
 		FF7BB5CB1ACF4C9900BCB932 /* cellTableServicio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellTableServicio.m; sourceTree = "<group>"; };
-		FF922D361AAF8C87000D8CB3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FF922D3A1AAFC22E000D8CB3 /* ubicacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubicacion.h; sourceTree = "<group>"; };
 		FF922D3B1AAFC22E000D8CB3 /* ubicacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ubicacion.m; sourceTree = "<group>"; };
 		FF922D411AB0A14A000D8CB3 /* backgroundgasnatural.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundgasnatural.png; sourceTree = "<group>"; };
@@ -180,6 +179,7 @@
 		FFA032BF1ACCB7BE00891DD0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FFA032C01ACCB7BE00891DD0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FFA032C11ACCB7BE00891DD0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		FFBB9B651ADD86770006C1EE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FFC92E0F1AD37B3600BDE925 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FFC92E111AD37CCC00BDE925 /* addPedido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addPedido.h; sourceTree = "<group>"; };
 		FFC92E121AD37CCC00BDE925 /* addPedido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addPedido.m; sourceTree = "<group>"; };
@@ -206,7 +206,6 @@
 				FF7B51131AAF500B009992EC /* StoreKit.framework in Frameworks */,
 				FF7B51111AAF5002009992EC /* Security.framework in Frameworks */,
 				FF7B510F1AAF4FE0009992EC /* CoreGraphics.framework in Frameworks */,
-				FF922D371AAF8C87000D8CB3 /* Parse.framework in Frameworks */,
 				FFA032C51ACCB7BE00891DD0 /* FBSDKShareKit.framework in Frameworks */,
 				FF7B510D1AAF4FD7009992EC /* CFNetwork.framework in Frameworks */,
 				FF7B510B1AAF4FCC009992EC /* AudioToolbox.framework in Frameworks */,
@@ -215,6 +214,7 @@
 				FF7B50D01AAF4120009992EC /* QuartzCore.framework in Frameworks */,
 				FF7B50CE1AAF4117009992EC /* OpenGLES.framework in Frameworks */,
 				FF7B50CC1AAF410F009992EC /* libz.dylib in Frameworks */,
+				FFBB9B661ADD86770006C1EE /* Parse.framework in Frameworks */,
 				FF7B50CA1AAF4105009992EC /* libicucore.dylib in Frameworks */,
 				FF7B50C81AAF40FE009992EC /* libc++.dylib in Frameworks */,
 				FFA032C31ACCB7BE00891DD0 /* FBSDKCoreKit.framework in Frameworks */,
@@ -370,8 +370,8 @@
 		FF7B51071AAF4F84009992EC /* parse */ = {
 			isa = PBXGroup;
 			children = (
+				FFBB9B651ADD86770006C1EE /* Parse.framework */,
 				FFA032BC1ACCB5B700891DD0 /* Bolts.framework */,
-				FF922D361AAF8C87000D8CB3 /* Parse.framework */,
 			);
 			name = parse;
 			sourceTree = "<group>";
