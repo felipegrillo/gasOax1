@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 @interface addPedido (){
     NSArray *listPicker;
+    
 }
 
 @end
@@ -18,8 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.lblNombre.hidden=TRUE;
+    [self onNotas];
     // Do any additional setup after loading the view.
-    listPicker = @[@"10", @"20", @"20", @"40", @"50", @"60",@"70",@"80",@"90",@"100",@"110",@"120",@"150",@"180",@"200",@"250",@"300"];
+    listPicker = @[@"10", @"20", @"30", @"40", @"50", @"60",@"70",@"80",@"90",@"100",@"110",@"120",@"150",@"180",@"200",@"250",@"300"];
     PFUser *users=[PFUser currentUser];
     NSLog(@"%@",users.objectId);
     
@@ -27,17 +30,22 @@
     [query whereKey:@"idusers" equalTo:users];
     [query orderByDescending:@"createdAt"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        NSString *nombre=[objects objectAtIndex:0];
+         NSLog(@"%@",nombre);
+         NSLog(@"%@",objects);
+        /*for (PFObject *objec in objects) {
+            NSLog(@"%@",objects);
+            nombrePedido=[objec objectforkey:@"Nombre"];
+        //    NSLog(@"%@",[objec objectforkey:@"Nombre"]);
+        }*/
+        NSDictionary *settings = [objects lastObject];
+        self.lblNombre.text = [settings objectForKey:@"Nombre"];
+        
   
-        nombreCliente=[[NSArray alloc] initWithArray:objects];
     }];
  
-    for (PFObject *song in nombreCliente) {
-        // This does not require a network access.
-        self.lblNombre.text = [song objectForKey:@"Nombre"];
-        
-        
-    }
-    self.lblNombre.text=@"Felipe";
+  
+  //  self.lblNombre.text=@"Felipe";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,4 +84,34 @@
 }
 */
 
-@end
+- (IBAction)btnPressedPedido:(id)sender {
+}
+
+- (IBAction)pressedSwitch:(id)sender {
+    if (_notOffFactura.on) {
+        [self onFactura];
+    
+    }else{
+        [self onNotas];
+    }
+    
+}
+
+- (void)onFactura{
+    self.txtRfc.hidden=TRUE;
+    self.razonSocial.hidden=TRUE;
+    self.txtPoblacion.hidden=TRUE;
+
+}
+- (void)onNotas{
+    self.txtRfc.hidden=FALSE;
+    self.razonSocial.hidden=FALSE;
+    self.txtPoblacion.hidden=FALSE;
+    
+}
+
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
+    [super touchesBegan:touches withEvent:event];
+}@end
